@@ -1,7 +1,4 @@
 "use client";
-import { useTranslations } from "next-intl";
-
-export default function layout() {
-  const t = useTranslations("HomePage");
-  return <></>;
+export default function page() {
+  return <div>sss</div>;
 }
