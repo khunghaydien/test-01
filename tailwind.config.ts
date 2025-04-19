@@ -32,6 +32,6 @@ const config: Config = {
       sans: ["'Noto Sans JP'", "sans-serif"], // Thêm font Noto Sans JP
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/line-clamp")],
 };
 export default config;
